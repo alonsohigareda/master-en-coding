@@ -1,0 +1,41 @@
+
+
+.padrepadre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    
+
+}
+
+.padre{
+    
+    height:  100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.hijo{
+    background-color:  rgb(255, 0, 128);
+    height: 20%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.nieto{
+    
+    height: 20%;
+    width: 40%;
+    text-align: center;
+    
+}

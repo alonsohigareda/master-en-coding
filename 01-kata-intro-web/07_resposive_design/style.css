@@ -1,0 +1,93 @@
+.padre{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.hijo-naranja{
+    background-color: coral;
+    height: 100%;
+    width: 33%;
+    border: solid 2px black;
+
+}
+
+.hijo-naranja2{
+background-color: coral;
+height: 100%;
+width: 33%;
+border: solid 2px black;
+}
+
+.hijo-azul{
+background-color: dodgerblue;
+height: 100%;
+width: 33%;
+border: solid 2px black;
+}
+
+@media only screen and (max-width:1300px){
+    .padre{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        flex-wrap: wrap;
+        
+    }
+    
+    .hijo-naranja{
+        background-color: coral;
+        height: 100%;
+        width: 49%;
+        border: solid 2px black;
+    
+    }
+    
+    .hijo-naranja2{
+    background-color: coral;
+    height: 100%;
+    width: 49%;
+    border: solid 2px black;
+    }
+    
+    .hijo-azul{
+    background-color: dodgerblue;
+    height: 100%;
+    width: 100%;
+    border: solid 2px black;
+    }
+    }
+
+
+    @media only screen and (max-width:500px){
+        .padre{
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            flex-wrap: wrap;
+            
+        }
+        
+        .hijo-naranja{
+            background-color: coral;
+            height: 100%;
+            width: 100%;
+            border: solid 2px black;
+        
+        }
+        
+        .hijo-naranja2{
+        background-color: coral;
+        height: 100%;
+        width: 100%;
+        border: solid 2px black;
+        }
+        
+        .hijo-azul{
+        background-color: dodgerblue;
+        height: 100%;
+        width: 100%;
+        border: solid 2px black;
+        }
+}

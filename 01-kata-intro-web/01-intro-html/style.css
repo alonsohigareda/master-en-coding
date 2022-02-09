@@ -1,0 +1,29 @@
+h1{
+        color: crimson;
+        background-color: skyblue;
+    }
+a{
+    color: rgb(8, 107, 33);
+}
+
+#primero{
+    color:blueviolet
+}
+
+#segundo{
+    color:red
+}
+
+p{
+    color: seagreen;
+}
+
+.tipo{
+    font-size: 30px;
+}
+
+#etiqueta{
+    padding: 10px;
+    border: 5px;
+    margin: 15px;
+}
